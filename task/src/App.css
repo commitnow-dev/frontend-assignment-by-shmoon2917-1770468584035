@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  min-height: 150px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: #333;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+section {
+  width: 250px;
+  text-align: left;
+  display: inline-block;
+}
+
+section>div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* padding-bottom: 5px; */
+}
+
+section>div input {
+  flex: 6;
+  width: 210px;
+  height: 40px;
+}
+
+section>div>ul {
+  display: none;
+  width: 210px;
+  position: absolute;
+  top: 40px;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #111;
+}
+
+section>div>ul>li {
+  height: 30px;
+  list-style: none;
+  border-bottom: 0.5px solid white;
+}
+
+section>div>ul>li:last-child {
+  border-bottom: 0;
+}
+
+section>div>.btn-area {
+  flex: 1;
+  width: 100%;
+}
+
+.is-open {
+  display: block;
+}
+
+.highlight {
+  color: red;
+}
+
+.input-area {
+  width: 100%;
+  display: flex;
+  /* position: relative; */
+}
+
+.init {
+  width: 40px;
+  height: 100%;
+  background: none;
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  padding: 5px;
+}
+
+.list-item:hover {
+  color: red;
+}
